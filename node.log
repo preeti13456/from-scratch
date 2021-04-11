@@ -1,0 +1,76 @@
+DEBUG[03-29|23:52:09.328] Sanitizing Go's GC trigger               percent=100
+INFO [03-29|23:52:09.329] Maximum peer count                       ETH=50 LES=0 total=50
+WARN [03-29|23:52:09.329] The flag --rpc is deprecated and will be removed in the future, please use --http 
+WARN [03-29|23:52:09.329] The flag --rpcaddr is deprecated and will be removed in the future, please use --http.addr 
+WARN [03-29|23:52:09.329] The flag --rpcport is deprecated and will be removed in the future, please use --http.port 
+WARN [03-29|23:52:09.330] The flag --rpcapi is deprecated and will be removed in the future, please use --http.api 
+INFO [03-29|23:52:09.330] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+DEBUG[03-29|23:52:09.330] FS scan times                            list="67.489µs" set="9.092µs" diff="5.216µs"
+DEBUG[03-29|23:52:09.330] Failed to decode keystore key            path=/home/tsv/Quorum_Projects/quorum/fromscratch/new-node-1/keystore/genesis.json err="missing or zero address"
+TRACE[03-29|23:52:09.330] Handled keystore changes                 time="221.147µs"
+TRACE[03-29|23:52:09.330] Started watching keystore folder         path=/home/tsv/Quorum_Projects/quorum/fromscratch/new-node-1/keystore
+WARN [03-29|23:52:09.332] Using deprecated resource file /home/tsv/Quorum_Projects/quorum/fromscratch/new-node-1/nodekey, please move this file to the 'geth' subdirectory of datadir. 
+WARN [03-29|23:52:09.333] Found deprecated node list file /home/tsv/Quorum_Projects/quorum/fromscratch/new-node-1/static-nodes.json, please use the TOML config file instead. 
+ERROR[03-29|23:52:09.333] Node URL enode://def61df01a36c14e1c75b187eeef5a2bf247dfc98b9641c882c5b9262c7bb628841096a6053fc63b8c83316576f3221401deb4de305f595104f10398b6428e27a@127.0.0.1:21000?discport=0&raftport=50000: invalid public key (encoding/hex: odd length hex string)
+ 
+INFO [03-29|23:52:09.333] Set global gas cap                       cap=25000000
+INFO [03-29|23:52:09.333] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [03-29|23:52:09.333] Allocated cache and file handles         database=/home/tsv/Quorum_Projects/quorum/fromscratch/new-node-1/geth/chaindata cache=768.00MiB handles=524288
+DEBUG[03-29|23:52:09.352] Chain freezer table opened               database=/home/tsv/Quorum_Projects/quorum/fromscratch/new-node-1/geth/chaindata/ancient table=bodies items=0 size=0.00B
+DEBUG[03-29|23:52:09.353] Chain freezer table opened               database=/home/tsv/Quorum_Projects/quorum/fromscratch/new-node-1/geth/chaindata/ancient table=receipts items=0 size=0.00B
+DEBUG[03-29|23:52:09.354] Chain freezer table opened               database=/home/tsv/Quorum_Projects/quorum/fromscratch/new-node-1/geth/chaindata/ancient table=diffs    items=0 size=0.00B
+DEBUG[03-29|23:52:09.356] Chain freezer table opened               database=/home/tsv/Quorum_Projects/quorum/fromscratch/new-node-1/geth/chaindata/ancient table=headers  items=0 size=0.00B
+DEBUG[03-29|23:52:09.357] Chain freezer table opened               database=/home/tsv/Quorum_Projects/quorum/fromscratch/new-node-1/geth/chaindata/ancient table=hashes   items=0 size=0.00B
+INFO [03-29|23:52:09.357] Opened ancient database                  database=/home/tsv/Quorum_Projects/quorum/fromscratch/new-node-1/geth/chaindata/ancient
+DEBUG[03-29|23:52:09.357] Current full block not old enough        number=0 hash="e56237…f0a73e" delay=3162240
+DEBUG[03-29|23:52:09.358] Account Extra Data root                  hash="000000…000000"
+INFO [03-29|23:52:09.358] Initialised chain configuration          config="{ChainID: 10240 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 IsQuorum: true Constantinople: 0 TransactionSizeLimit: 64 MaxCodeSize: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil> YOLO v1: <nil> PrivacyEnhancements: <nil> Engine: unknown}"
+WARN [03-29|23:52:09.358] Ethash used in full fake mode 
+INFO [03-29|23:52:09.358] Initialising Ethereum protocol           name=eth versions="[65 64 63]" network=31337 dbversion=<nil>
+INFO [03-29|23:52:09.358] Initialising Quorum consensus protocol   name=eth versions="[65 64 63]" network=31337 dbversion=<nil>
+WARN [03-29|23:52:09.358] Upgrade blockchain database version      from=<nil> to=8
+INFO [03-29|23:52:09.359] Loaded most recent local header          number=0 hash="e56237…f0a73e" td=0 age=51y11mo3w
+INFO [03-29|23:52:09.359] Loaded most recent local full block      number=0 hash="e56237…f0a73e" td=0 age=51y11mo3w
+INFO [03-29|23:52:09.359] Loaded most recent local fast block      number=0 hash="e56237…f0a73e" td=0 age=51y11mo3w
+DEBUG[03-29|23:52:09.360] Account Extra Data root                  hash="000000…000000"
+DEBUG[03-29|23:52:09.360] Account Extra Data root                  hash="000000…000000"
+DEBUG[03-29|23:52:09.360] Account Extra Data root                  hash="000000…000000"
+DEBUG[03-29|23:52:09.360] Account Extra Data root                  hash="000000…000000"
+DEBUG[03-29|23:52:09.360] Reinjecting stale transactions           count=0
+INFO [03-29|23:52:09.360] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [03-29|23:52:09.373] Allocated fast sync bloom                size=512.00MiB
+WARN [03-29|23:52:09.375] permission-config.json file is missing. Smart-contract-based permission service will be disabled error="stat new-node-1/permission-config.json: no such file or directory"
+WARN [03-29|23:52:09.375] Using deprecated resource file new-node-1/nodekey, please move this file to the 'geth' subdirectory of datadir. 
+WARN [03-29|23:52:09.376] Found deprecated node list file new-node-1/static-nodes.json, please use the TOML config file instead. 
+DEBUG[03-29|23:52:09.376] Recalculated downloader QoS values       rtt=20s confidence=1.000 ttl=1m0s
+ERROR[03-29|23:52:09.377] Node URL enode://def61df01a36c14e1c75b187eeef5a2bf247dfc98b9641c882c5b9262c7bb628841096a6053fc63b8c83316576f3221401deb4de305f595104f10398b6428e27a@127.0.0.1:21000?discport=0&raftport=50000: invalid public key (encoding/hex: odd length hex string)
+ 
+Fatal: Raft-based consensus requires either (1) an initial peers list (in static-nodes.json) including this enode hash (890451a868a6a2d4c7391143668d27e472fefc16ba9dfedaadd29c077fe14500), or (2) the flag --raftjoinexisting RAFT_ID, where RAFT_ID has been issued by an existing cluster member calling `raft.addPeer(ENODE_ID)` with an enode ID containing this node's enode hash.
+DEBUG[03-30|00:02:27.321] Sanitizing Go's GC trigger               percent=100
+INFO [03-30|00:02:27.324] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [03-30|00:02:27.324] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+DEBUG[03-30|00:02:27.325] FS scan times                            list=319.259µs set=17.377µs diff=14.447µs
+TRACE[03-30|00:02:27.326] Started watching keystore folder         path=/home/tsv/Quorum_Projects/quorum/fromscratch/new-node-1/keystore
+DEBUG[03-30|00:02:27.326] Failed to decode keystore key            path=/home/tsv/Quorum_Projects/quorum/fromscratch/new-node-1/keystore/genesis.json err="missing or zero address"
+TRACE[03-30|00:02:27.326] Handled keystore changes                 time=779.764µs
+WARN [03-30|00:02:27.329] permission-config.json file is missing. Smart-contract-based permission service will be disabled error="stat new-node-1/permission-config.json: no such file or directory"
+INFO [03-30|00:02:27.329] raft service registered 
+WARN [03-30|00:02:27.329] Using deprecated resource file /home/tsv/Quorum_Projects/quorum/fromscratch/new-node-1/nodekey, please move this file to the 'geth' subdirectory of datadir. 
+WARN [03-30|00:02:27.330] Found deprecated node list file /home/tsv/Quorum_Projects/quorum/fromscratch/new-node-1/static-nodes.json, please use the TOML config file instead. 
+ERROR[03-30|00:02:27.330] Node URL enode://def61df01a36c14e1c75b187eeef5a2bf247dfc98b9641c882c5b9262c7bb628841096a6053fc63b8c83316576f3221401deb4de305f595104f10398b6428e27a@127.0.0.1:21000?discport=0&raftport=50000: invalid public key (encoding/hex: odd length hex string)
+ 
+INFO [03-30|00:02:27.330] Starting peer-to-peer node               instance=Geth/v1.9.7-stable-a21e1d44(quorum-v21.1.0)/linux-amd64/go1.15.5
+INFO [03-30|00:02:27.330] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [03-30|00:02:27.330] Allocated cache and file handles         database=/home/tsv/Quorum_Projects/quorum/fromscratch/new-node-1/geth/chaindata cache=768.00MiB handles=524288
+DEBUG[03-30|00:02:27.353] Chain freezer table opened               database=/home/tsv/Quorum_Projects/quorum/fromscratch/new-node-1/geth/chaindata/ancient table=receipts items=0 size=0.00B
+DEBUG[03-30|00:02:27.354] Chain freezer table opened               database=/home/tsv/Quorum_Projects/quorum/fromscratch/new-node-1/geth/chaindata/ancient table=diffs    items=0 size=0.00B
+DEBUG[03-30|00:02:27.356] Chain freezer table opened               database=/home/tsv/Quorum_Projects/quorum/fromscratch/new-node-1/geth/chaindata/ancient table=headers  items=0 size=0.00B
+DEBUG[03-30|00:02:27.357] Chain freezer table opened               database=/home/tsv/Quorum_Projects/quorum/fromscratch/new-node-1/geth/chaindata/ancient table=hashes   items=0 size=0.00B
+DEBUG[03-30|00:02:27.359] Chain freezer table opened               database=/home/tsv/Quorum_Projects/quorum/fromscratch/new-node-1/geth/chaindata/ancient table=bodies   items=0 size=0.00B
+INFO [03-30|00:02:27.359] Opened ancient database                  database=/home/tsv/Quorum_Projects/quorum/fromscratch/new-node-1/geth/chaindata/ancient
+DEBUG[03-30|00:02:27.359] Current full block not old enough        number=0 hash=e56237…f0a73e delay=3162240
+DEBUG[03-30|00:02:27.359] Account Extra Data root                  hash=000000…000000
+INFO [03-30|00:02:27.360] Initialised chain configuration          config="{ChainID: 10240 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 IsQuorum: true Constantinople: 0 TransactionSizeLimit: 64 MaxCodeSize: 0 Petersburg: 0 Istanbul: 0 PrivacyEnhancements: <nil> Engine: unknown}"
+WARN [03-30|00:02:27.360] Ethash used in full fake mode 
+INFO [03-30|00:02:27.360] Initialising Ethereum protocol           name=eth versions="[64 63]" network=31337 dbversion=8
+Fatal: Error starting protocol stack: database version is v8, Geth 1.9.7-stable only supports v7
